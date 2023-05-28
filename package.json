@@ -1,0 +1,33 @@
+{
+  "name": "appendfrontend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "dev-tail": "npx tailwindcss -i ./src/style.css -o ./src/assets/css/style.css --watch",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "bootstrap": "^5.3.0-alpha3",
+    "flowbite": "^1.6.5",
+    "primeicons": "^6.0.1",
+    "primevue": "^3.28.0",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "autoprefixer": "10.4.5",
+    "eslint": "^8.41.0",
+    "eslint-plugin-vue": "^9.13.0",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.1.4"
+  }
+}
